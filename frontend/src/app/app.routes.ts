@@ -6,9 +6,13 @@ import { Component } from '@angular/core';
 
 
 
+
 export const routes: Routes = [
+    
     {path : "cadastro", component : CadastroComponent},
+
     {path : "lista", component :ListaComponent},
     {path : "upload" , component : UploadComponent},
     {path : " " , component : ListaComponent } 
+    
 ];
